@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  height: 80vh;
+  width: 97vw;
+}
+
+.map {
+  border: 3px solid black;
+  height: 100%;
+  width: 100%;
+}
+
+
+.marker {
+  background-image: url('https://i.imgur.com/oz3r3Wq.png');
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  background-color: yellow;
+  border-radius: 11px;
+  border: solid 3px darkslategray;
+}
+
+.marker-delivery {
+  background-image: url('https://i.imgur.com/cIooqnp.png');
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  border-radius: 15px;
+  border: solid darkslategrey 3px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.city,
+.state {
+  width: 30vw;
+  height: 10vh;
+  border: 1px solid black;
+  padding: 7px;
+
+
+}
+
+.button {
+  width: 12vw;
+  height: 3vw;
+  font-size: 2vw;
+}
+
+.input {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: space-around;
+  width: 80vw;
+  height: 16vh;
+}
